@@ -7,3 +7,7 @@ export enum Services {
     AUTH = 'AUTH_SERVICE',
     USERS = "USERS_SERVICE"
 }
+
+
+
+export const accesTokenSecret = process.env.ACCESS_TOKEN_SECRET || 'my-secret'
